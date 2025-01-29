@@ -1,0 +1,109 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #b0e57c; /* Green shade background */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    height: 100vh;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50; /* Green header */
+    padding: 20px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold; /* Make the text bolder */
+    text-align: center;
+    width: 100%;
+    position: fixed; /* Fix it at the top of the page */
+    top: 0;
+    left: 0;
+    z-index: 10; /* Ensure it stays on top */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* Add shadow for better visibility */
+    text-transform: uppercase; /* Make the text uppercase */
+    letter-spacing: 2px; /* Add spacing between letters for better readability */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font for a more modern look */
+}
+
+/* Main Content Container - Dividing into two parts */
+.main-content {
+    display: flex; /* Use Flexbox to create a two-column layout */
+    flex: 1;
+    justify-content: space-around; /* Space out the sections evenly */
+    margin-top: 80px; /* Add margin to avoid overlap with the fixed header */
+    padding: 20px;
+}
+
+/* Input Section Styling */
+.input-section {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 45%; /* Take up 45% of the screen width */
+}
+
+/* Output Section Styling */
+.output-section {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 45%; /* Take up 45% of the screen width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e4cf57; /* Gold color for title */
+}
+
+/* Form Label Styling */
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    color: #e4cf57; /* Gold color for labels */
+}
+
+/* Input Field Styling */
+input {
+    width: calc(100% - 160px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Output Image Styling */
+.output-section img {
+    border-radius: 15px; /* Make the image corners rounded */
+    max-width: 100%;
+    height: auto;
+}
