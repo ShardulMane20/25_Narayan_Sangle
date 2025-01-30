@@ -106,7 +106,8 @@
                 <option value="" disabled selected>Select User Type</option>
                 <option value="farmer">Farmer</option>
                 <option value="shopkeeper">Shopkeeper</option>
-                <option value="rental Services">Rental Services</option>
+                <option value="rental services">Rental Services</option>
+                <option value="admin">Admin</option>
               </select>
             </div>
             <div class="mb-3">
@@ -126,7 +127,7 @@
           <h3 class="form-header">Register as</h3>
           <a href="register.php" class="btn btn-info" role="button">Farmer</a>
           <a href="Shopmodule\backend\shop.php" class="btn btn-primary" role="button">Shopkeeper</a>
-          <a href="#" class="btn btn-success" role="button">Rental Servicess</a>
+          <a href="Rental_services\backend\shop.php" class="btn btn-success" role="button">Rental Servicess</a>
         </div>
 
         <!-- Register as Shopkeeper Tab -->
